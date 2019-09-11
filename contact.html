@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact details</title>
+</head>
+
+<body>
+  <h1>Contact details</h1>
+  <hr size="3" noshade>
+  <p>To get more information about me, please use my contact details below:</p>
+  <p>
+    First Name: Bisong <br>
+    Last Name:Tangban<br>
+    Country:Australia<br>
+    Email address:btangban@yahoo.co.uk<br>
+    Phone number:04277069
+  </p>
+
+  <!-- <form action="">
+    <label for="">Name</label>
+    <input type="text" name="" value="">
+    <input type="submit" value="submit"><br>
+    <label for="">Upload a file</label>
+    <input type="file" name="" value="Choose a file"><br>
+    <label>Select a date</label>
+    <input type="date" name="" value=""><br>
+    <input type="range" name="" value=""><br>
+    <label>Do you want to be sent emails</label>
+    <input type="checkbox" name="" value="">
+  </form> -->
+
+  <!-- creat form with username, email and message. allow user to submit form -->
+  <!-- set up mailto client with the email address we want to send user information to -->
+  <!-- action is what happens when the user clicks the submit button -->
+  <!-- mailto - opens the defualt mail client on your system. Defualt client depends on what browser is in use -->
+  <!-- Have a look at the different maitos and browsers later -->
+  <!-- The post method in the form simply means we're going to transfer all the inputs in form -->
+  <!-- To the email client -->
+  <!-- Read a bit more about the name attribute for each element/attribute -->
+  <!-- Read more about the enctype -->
+
+  <form action="mailto:btangban@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="yourName" value=""><br>
+    <label>Email Address:</label>
+    <input type="email" name="emailAddress" value=""><br>
+    <label>Your message</label><br>
+    <textarea name="yourMessage" rows="8" cols="30"></textarea><br>
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>

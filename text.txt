@@ -1,0 +1,4 @@
+emmet package included in atom helps the completion of text when typed in atom
+to enter the html element of the site, I typed html and hit the enter key and it
+auto-filled the rest of the html element
+the html element is called the html boiler plate
